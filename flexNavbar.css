@@ -1,7 +1,17 @@
+* {
+    color: white;
+}
+
+div {
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
 .center-box {
     background: darkblue;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 
@@ -9,4 +19,27 @@
     background: peachpuff;
     margin: 100px;
     padding: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: cornflowerblue;
+    padding: 20px 0px;
+}
+
+ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    margin-right: 50px;
 }
